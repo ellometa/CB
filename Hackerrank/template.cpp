@@ -7,16 +7,8 @@ using namespace std;
 #define newline <<'\n'
 
 void solve() {
-    int a, b, c; cin >> a >> b >>c;
-    if(a < b && b < c){
-        cout << "STAIR" newline;
-    }
-    else if (a < b && b > c){
-        cout << "PEAK"  newline;
-    }
-    else{
-        cout<< "NONE" newline;
-    }
+    
+
 }
 
 int main() {
