@@ -5,17 +5,19 @@ using namespace std;
 #define vint vector<int>
 #define pb push_back
 #define newline <<'\n'
+const int INF = LLONG_MAX >> 1;
 
 void solve() {
-    
-    // quotient < floor [ (n-y)/x ]
+    string s; cin >> s;
+    int num = stoi(s);
 
-    int x, y, n; cin >> x >> y >> n;
-
-    int quotient = floor ((n-y) / x);
-    
-    cout << quotient*x + y newline;
-}   
+    if ( (num >= 102 && num <= 109)  || (num >= 1010 && num <= 1099)  ){
+        cout << "YES" newline;
+    }
+    else {
+        cout << "NO" newline;
+    }
+}
 
 int32_t main() {
     IOS;
@@ -23,6 +25,7 @@ int32_t main() {
     int t;
     cin >> t;
     while (t--) {
+        // cout << t newline;
         solve();
     }
 

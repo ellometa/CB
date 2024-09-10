@@ -5,26 +5,25 @@ using namespace std;
 #define vint vector<int>
 #define pb push_back
 #define newline <<'\n'
+const int INF = LLONG_MAX >> 1;
 
 void solve() {
-    
-    // quotient < floor [ (n-y)/x ]
 
-    int x, y, n; cin >> x >> y >> n;
-
-    int quotient = floor ((n-y) / x);
-    
-    cout << quotient*x + y newline;
-}   
+}
 
 int32_t main() {
     IOS;
 
-    int t;
-    cin >> t;
-    while (t--) {
-        solve();
-    }
+    int n, m, a;    cin >> n >> m >> a;
+    int ncounter = 0, mcounter=0;
 
+    if ((n%a)!=0){
+        ncounter = 1;
+    }
+    if ((m%a)!= 0){
+        mcounter = 1;
+    }
+    cout << (n/a + ncounter)*(m/a + mcounter);
+ 
     return 0;
 }
