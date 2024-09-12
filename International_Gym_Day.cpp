@@ -30,7 +30,7 @@ void solve() {
     if (!yes) {
             cout << -1 newline;
         }
-// }
+}
 
 int32_t main() {
     IOS;
