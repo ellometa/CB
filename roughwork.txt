@@ -1,25 +1,11 @@
-while (numberarray.size() >= 0){
+"Thank you for the reply.
 
-        int counter = 0;
-        int min = 1000000000;
-        // find minimum
-        for (int j = 0; j < t; j++){
-            if (min > numberarray[j]){
-                min = numberarray[j];
-            }
-        }
+Invaluable advice, I work on problems from the Big(O) Club, even if some take a few hours
 
-        cout << min;
+I handle A-B in CF Div 3 well. Problem C takes more effort 
+due to shaky math skills.
 
-        //
-        for (int k = 0; k < t; j++){
-            if ( numberarray[k] > min ){
-                ++counter;
-            }
-            numberarray[k]-=min;
-            if (numberarray[k]<=0){
-                numberarray.erase(numberarray.begin() + k);
-            }
-        }        
-        cout << counter << "\n";
-    }
+Woud you suggest to go for TLE-eliminators level 1/2? or 
+work on my own with codecell's help?
+ 
+Not asking discounts 😭, just guidance.

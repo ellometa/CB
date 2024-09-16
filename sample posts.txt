@@ -1,0 +1,34 @@
+Day 119 of Competitive Programming as a fresher.
+
+This is the first post in what will be a weekly post.
+How is it day 1? 
+because i consider it begins from may 20 2024, day of my first ever codeforces contest
+
+why am i making this? 
+to connect with like minded individuals and document progress etc
+
+what all has happened in the 118 days?
+ive given 7 contests, 4 on cf and 3 on cchef
+can upsolve upto b on div 2 contests
+acquired problem solving basic certification on hackerrank
+learned that i require a lot more math than was led to believe for C.P.
+Day 119 of Competitive Programming as a Fresher
+
+Today marks my first LinkedIn post in what will be a weekly update on my journey in competitive programming!
+
+Why start on Day 119?
+I consider May 20, 2024, the day it all began—my first-ever Codeforces contest. Since then, it's been a rollercoaster of learning, growth, and challenges.
+
+Why am I doing this?
+To connect with like-minded individuals, document my progress, and share my experiences with the community.
+
+What’s happened in the last 118 days?
+
+Participated in 7 contests: 4 on Codeforces and 3 on CodeChef
+Can upsolve up to B-level problems in Codeforces Div 2 contests
+Earned the Problem Solving (Basic) certification on HackerRank
+Learned that competitive programming requires a lot more math than I initially thought!
+Excited to keep learning and improving. If you’re into competitive programming or interested in sharing tips, feel free to connect!
+
+#CompetitiveProgramming #LearningJourney #CodingCommunity #ProblemSolving
+
