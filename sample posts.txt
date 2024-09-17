@@ -28,7 +28,8 @@ Participated in 7 contests: 4 on Codeforces and 3 on CodeChef
 Can upsolve up to B-level problems in Codeforces Div 2 contests
 Earned the Problem Solving (Basic) certification on HackerRank
 Learned that competitive programming requires a lot more math than I initially thought!
-Excited to keep learning and improving. If you’re into competitive programming or interested in sharing tips, feel free to connect!
+Excited to keep learning and improving. If you’re into competitive programming or interested in sharing tips, 
+feel free to connect!
 
 #CompetitiveProgramming #LearningJourney #CodingCommunity #ProblemSolving
 
