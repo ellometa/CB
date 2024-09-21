@@ -11,8 +11,22 @@ using namespace std;
 const int INF = LLONG_MAX >> 1;
 
 void solve() {
-
-    
+    int n, threshold; cin >> n >> threshold;
+    int wallet = 0;
+    int counter = 0;
+    for (int i =0; i<n; i++){
+        int temp; cin >> temp;
+        if (temp >= threshold){
+            wallet+=temp;
+        }
+        else{
+            if(temp == 0 && wallet != 0){
+                --wallet;
+                ++counter;
+            }
+        }
+    }
+    cout << counter newline;
 
 }
 

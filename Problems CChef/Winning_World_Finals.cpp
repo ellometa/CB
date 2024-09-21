@@ -22,6 +22,7 @@ void solve() {
 
     cout << std::min(n1, n2) newline;
 
+    
 }
 
 int32_t main() {
