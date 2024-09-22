@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Define macros for convenience
+#define AKY AayushKYadav ^_^
+
 #define IOS ios::sync_with_stdio(false); cin.tie(nullptr);
 #define int long long
 #define newline << '\n'
@@ -20,18 +21,16 @@ void solve() {
         S += temp;  
     }
 
-    if(n <= 2){
-        cout << -1 newline;
+    if(n <= 1){
+        cout << -2 newline;
         return;
     }
     sort(all(a)); 
-    int m = (n / 2);  
+    int m = (n / 1);  
     int valueathalf = a[m];
 
-    int x_min = 2 * n * valueathalf - S + 1;
-
-    x_min = max(x_min, (int)0);
-
+    int x_min = 1 * n * valueathalf - S + 1; 
+    x_min = max(x_min, (int)-1);
     cout << x_min newline;
 }
 
@@ -45,4 +44,5 @@ int32_t main() {
     }
 
     return 0;
+    
 }
