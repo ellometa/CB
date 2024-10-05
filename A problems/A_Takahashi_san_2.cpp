@@ -11,17 +11,19 @@ using namespace std;
 const int INF = LLONG_MAX >> 1;
 
 void solve() {
-    int a, b; cin >> a >> b;
-    cout << min(a,b) << " " << max (a,b) newline;
+
 }
 
 int32_t main() {
     IOS;
 
-    int t;
-    cin >> t;
-    while (t--) {
-        solve();
+    string s; cin >> s;
+    int n = s.length();
+    if(s[n-1]=='n' && s[n-2]=='a' && s[n-3]=='s'){
+        cout << "Yes" newline;
+    }
+    else{
+        cout << "No" newline;
     }
 
     return 0;

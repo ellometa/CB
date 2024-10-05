@@ -11,8 +11,7 @@ using namespace std;
 const int INF = LLONG_MAX >> 1;
 
 void solve() {
-    int a, b; cin >> a >> b;
-    cout << min(a,b) << " " << max (a,b) newline;
+
 }
 
 int32_t main() {
@@ -26,3 +25,8 @@ int32_t main() {
 
     return 0;
 }
+/*
+5
+2   3   5    10    12
+  2   5   10    20    32
+*/
