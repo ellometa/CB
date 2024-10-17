@@ -20,7 +20,7 @@ int32_t main() {
 
     double a,b; cin >> a >> b;
 
-    int n =double(log(b/a)/log(3.0/2)) + 1;
+    int n = double(log(b/a)/log(3.0/2)) + 1;
     
 
     cout << n newline;
