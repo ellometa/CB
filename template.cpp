@@ -17,11 +17,10 @@ void solve() {
 
 int32_t main() {
     IOS;
-
-    int t;
+    int t = 1;
     cin >> t;
     while (t--) {
-        
+        solve();
     }
 
     return 0;
