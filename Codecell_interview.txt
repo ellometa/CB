@@ -1,1 +1,134 @@
-Hi im undergoing an interview
+
+
+63
+
+1-63 number-=2
+
+(n/2)*(n^1/2)
+
+decrement
+
+1->n
+ 
+1 -> n^(1/2)
+
+*above text is raw input from me during a codecell interview, then they asked me to shift it over to the google doc*
+*below text is a transcript for what happened in the interview, forgive me if i dont remember stuff completely*
+
+join kia to sabse pehle bola entire screen share karo
+-rahil-plz introduce yourself
+-ye wo, competitive ka 14 hu, plz lelo ccell mai
+-accha you like competitive na?
+-yes
+-why? whats your motivation behind it?
+-i answered properly about how much of an adrenaline rush it is, java mai sabse pehle solve karke bohot superior feel karta tha, idhar aukaad pata chal rhi hai
+-tere resume pe c++ mentioned hai na
+-yes
+-tell me what the stl is for
+-answered averagely
+-why did you choose cpp in particular
+-idhar shuru hua, best hai cp ke liye, idhar hi khatam ho jaunga
+-ok im giving you a question
+-aight bet
+-you are given a random set of integers, i want you to print it without duplicates
+after trying to act smart like ive thought about this problem for the first time ever
+-the naive approach would o(n^2) where i iterate through the array completely again and again when i encounter it
+-thats nice, and is there a better approach
+-yes, we just throw a set at it
+-hmm, thats a general solution. do you know what the space and time complexity would be for this soln
+-o(n) for both
+-yes, so can you have a solution thats o(n) in time and o(1) space complexity
+-the fuck?
+i genuinely struggled for 20 seconds
+-ok ill give you a hint, sort the array
+-ohhhhhhhhhhhhhhh, i thought we had to preserve the arrangement of the random integers
+-nono its fine, i assume you got a solution can you take me through it
+-yes just take the first element print it and then check if the next element is unique and keep going until you encounter a unique element which you wil just print and then repeat from there
+-sounds good, code it up
+codes it up nervously, 100 wpm se seedha 40 ho gaya pata nahi kaise
+around 5 mins lage
+-ok whats your rating right now
+-960 on cforces peak
+-accha how would you improve your rating to get into the next bracket
+-topicwise if i have to say, i would have to learn intro to dp, graph theory combinatorics, rn im learning number theory and math to make my basics stronger, but this was topicwise. if you are talking mentality then i would have to learn to have utmost focus and dedication on certain problems for atleast an hour and to improve this i have been meditating
+-accha you mentioned combinatorics na, did you solve the codespree question that was just permutation combination
+-no i didnt i thought it was too hard
+-accha consider this, i give you two unique pieces and just 1 row of a chess board, in what possible ways i can arrange them
+-assuming two pieces cant be on the same square, thats 8 positions for the first piece and 7 positions for the second 7*8
+-which is ...
+mera bc brain blank ho gaya simple sa multiplication karne mai 10 seconds ke liye struggle kar rha tha
+-56
+-yes so just extrapolating it to the problem you will be able to upsolve it
+-ok sir
+-you said modular arithmetic na
+- i did but i havent learned it properly 
+-its fine, are you aware about the max value int that we use in cp 
+-2 billion?
+-i think you are confusing it with the java int, which does hold 2 billion signed, the answer is 1e9 
+-understood
+-do you know how some problems mention mod 1e9
+-yes 
+-why do we that
+-because some numbers are way too large so use mod 1e9 to get numbers that can guaranteed fit in the integer datatype
+i dont recall the rest of this question but i do rmr i fucked up somewhere
+heres the next question
+
+-you mentioned number theory, here's one problem i can give
+-ok
+-"Given an odd number 'n', check if it can be expressed as the sum of two prime numbers. If possible, print the two primes. If not, print 'none'." 
+
+bros 
+i struggled at this problem like nothing ever before, he asked me the time complexity for every single thought process i had
+
+-my first approach is decrementing from the n number getting 'd' and then checking if d is prime and then checking its complement n-d whether that is prime
+this was the most naive solution i could have made, and the most fuckall honestly
+-whats the time complexity since you are doing two primality checks
+- o(n)*[o(n)+0(n)]
+i had a revelation that instead of decrementing by 1 i could decrement by 2 since i dont need to check for even numbers but this was like polishing a dog turd to make it look like gold
+-oh yea i could also be doing the better primality check which works in o(n^1/2) and -> (explains the revelation)
+-and what is the updated time complexity
+- o [ (n/2) * (n^(1/2)) ] => o(n^3/2), ive never learned time complexity formally but im assuming its just worst case scenario
+-rahil-nono its fine this is correct, but theres a better soln that works in o (n^1/2)
+- just one primality check?? that doesnt make sense
+- ok just write out odd numbers from 5 to 20
+5   7   9   11  13  15  17  19
+-rahil-now try expressing them as sum of two primes
+-hmm
+5       7      9       11     13      15      17      19
+3,2     5,2    7,2     none   11,2    13,2    none    17,2
+
+the pattern was staring me in the face
+
+they said
+given number is always a fucking odd number
+this was just odd-even parity
+an odd number is always a sum of 1 odd 1 even or 1 even 1 odd
+
+theres only a singular even prime number
+
+2
+
+ive been a fucking idiot
+i think i shouted half in anger at myself for not seeing this before
+baka mitai
+
+-(explains the revelation)
+-nice and whats the time complexity
+-o(n^1/2), every time
+-rahil-good now ill hand you over to the marketing and creative divisions
+-aadil-actually can you give him one more tech question
+-rahil-accha ok
+-easy dena
+-rahil-heh wo mai decide karunga
+-rahil- accha imagine you are the secretary of a doctor who receives appointments every day
+-rahil- heres the input you get [10, 20, 12, 199, 9123 ...upto n terms]
+-rahil- its all random numbers and then as a secretary you have to file taxes and to file taxes they ask you a question what was the sum of total people in a given range of days, say between 4 to 10 how many appointments were made
+-ok so the naive approach would be beginning from the 4th day(i) and summing it up till we reach the j which in this case is 10
+-rahil- and whats the time complexity for this
+-worst case scenario it gives o(n^2)
+-rahil- can it be done better
+-yes we can precompute it as a prefix sum on runtime and then calc prefix[j]-prefix[i] which gives us the sum between these numbers
+-good, thats correct now what if i 
+
+and then he asked a harder version of this problem which i honestly absolutely fucking sucked at but its getting late and i dont feel like typing anymore
+ill update that last question and what the marketing ppl asked me but ill do it tmrw gn
