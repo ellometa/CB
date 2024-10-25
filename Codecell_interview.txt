@@ -125,10 +125,11 @@ baka mitai
 -rahil- its all random numbers and then as a secretary you have to file taxes and to file taxes they ask you a question what was the sum of total people in a given range of days, say between 4 to 10 how many appointments were made
 -ok so the naive approach would be beginning from the 4th day(i) and summing it up till we reach the j which in this case is 10
 -rahil- and whats the time complexity for this
--worst case scenario it gives o(n^2)
+-worst case scenario it gives o(n*q) for q queries
 -rahil- can it be done better
--yes we can precompute it as a prefix sum on runtime and then calc prefix[j]-prefix[i] which gives us the sum between these numbers
--good, thats correct now what if i 
+-yes we can precompute it as a prefix sum on runtime and then calc prefix[j]-prefix[i] which gives us the sum between these numbers, which becomes o(n+q)
+-good, thats correct now what if i added updates to the original array like so [add, index, increment], and these updates are scattered randomly in your input, could you modify this prefix sum to account for this or not?
 
-and then he asked a harder version of this problem which i honestly absolutely fucking sucked at but its getting late and i dont feel like typing anymore
-ill update that last question and what the marketing ppl asked me but ill do it tmrw gn
+bro i was fighting for my life here, i wasnt able to do it. searched it up, apparently its some binary indexed tree (fenwick tree) 
+
+what the marketing ppl asked me but ill do it tmrw gn
