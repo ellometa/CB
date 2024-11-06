@@ -10,7 +10,9 @@ using namespace std;
 const int INF = LLONG_MAX >> 1;
 
 void solve() {
-
+    int a, b;
+    cin >> a >> b;
+    cout << min(a,b);
     
 
 }
